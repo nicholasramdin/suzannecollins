@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+
+<head>
+
+    <title>Works</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+        .parallax {
+            /* The image used */
+            background-image: url("assets/img/hgbg.jpg");
+
+            /* Set a specific height */
+            min-height: 500px;
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+ul {
+  list-style-type: square;</style>
+</head>
+
+<body>
+
+    <div class="parallax"></div>
+
+    <header>
+
+        <div id="mobilenav"><a href="#">&#9776;</a></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="works.html">Works</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <br>
+
+    <br>
+
+    <div class="hername">
+        <h1>Suzanne Collins</h1>
+    </div>
+
+    <br>
+
+    
+    <h2>Click on a book to purchase!</h2>
+
+
+
+
+    <div class="grid-container">
+        <div class="item1"><a href="https://www.amazon.com/Hunger-Games-Book-1/dp/0439023521/ref=sr_1_1?crid=3HYKYHF2DFOGU&keywords=suzanne+collins+hunger+games&qid=1569304180&s=gateway&sprefix=suzanne+collins+hung%2Caps%2C198&sr=8-1"><img src="assets/img/hungergames.jpg" style="width:300px;height:350px;"></a></div>
+        
+        <div class="item1"><a href="https://www.amazon.com/Catching-Fire-Hunger-Games-Book/dp/B07T6BQV2L/ref=sr_1_1?crid=3AD4NF9I6H9T4&keywords=suzanne+collins+catching+fire&qid=1569304709&sprefix=suzanne+collins+catching%2Caps%2C154&sr=8-1"><img src="assets/img/catchingfire.jpg" style="width:300px;height:350px;"></a></div>
+        
+        <div class="item1"><a href="https://www.amazon.com/Mockingjay-Hunger-Games-Book-3/dp/B07T43YYRY/ref=sr_1_1?crid=3GN6BDZGCAG14&keywords=suzanne+collins+mockingjay&qid=1569304986&sprefix=suzanne+collins+mo%2Caudible%2C809&sr=8-1"><img src="assets/img/mockingjay.jpg" style="width:300px;height:350px;"></a></div>
+        
+        <div class="item1"><a href="https://www.amazon.com/Gregor-Overlander-Underland-Chronicles-1-ebook/dp/B0041T52UY/ref=sr_1_1?keywords=suzanne+collins+gregor+the+overlander&qid=1569305089&s=digital-text&sr=1-1"><img src="assets/img/gregor1.jpg" style="width:300px;height:350px;"></a></div>
+        
+         <div class="item1"><a href="https://www.amazon.com/Underland-Chronicles-Gregor-Prophecy-Bane-ebook/dp/B0041T52V8/ref=sr_1_2?keywords=suzanne+collins+gregor+the+overlander&qid=1569305089&s=digital-text&sr=1-2"><img src="assets/img/gregor2.jpg" style="width:300px;height:350px;"></a></div>
+        
+         <div class="item1"><a href="https://www.amazon.com/Year-Jungle-Memories-Home-Front-ebook/dp/B00C2YW6EU/ref=sr_1_1?keywords=suzanne+collins+year+of+the+jungle&qid=1569305271&s=digital-text&sr=1-1"><img src="assets/img/yearofthejungle.jpg" style="width:300px;height:350px;"></a></div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $('#mobilenav').click(function() {
+            $('nav').toggle();
+        });
+        $(window).resize(function() {
+            if (window.innerWidth > 575) {
+                $('nav').show();
+            };
+        });
+
+    </script>
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>

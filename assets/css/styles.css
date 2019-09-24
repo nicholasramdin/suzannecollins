@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+body{
+    background: #000;
+}
+
+h2{
+    color:#a63200;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+/*nav*/
+header{
+	border-bottom:1px solid #110B11;
+	position:relative;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+#mobilenav{
+	display:none;
+}
+
+nav{
+	position:absolute;
+	top:17px;
+	right:0px;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav li{
+	display:inline-block;
+}
+
+nav a{
+	border:1px solid #110B11;
+	padding:10px;
+	text-decoration: none;
+	color:#110B11;
+    background-color: #a63200;
+    font-family: 'Merriweather', serif;
+}
+
+nav a:hover{
+	border:1px solid #000;
+	color:#000;
+     background-color: #B7990D;
+}
+
+}
+
+
+
+        img {
+            max-width: 100%;
+  width: auto;
+  height: auto;
+            
+}
+
+#profile{
+    max-width:500px;max-height:600px;
+}
+#yearofj{
+    max-width:500px;max-height:600px;
+}
+
+.yoj{
+   background: #A5D0A8;
+	border-radius:15px;
+    width:100%;
+
+}
+
+.mockingjay{
+    
+	border-radius:15px;
+    width:100%;
+
+}
+
+#mockj {max-width:500px;max-height:600px;
+     
+}
+
+.catchingfire{background: #A5D0A8;
+	border-radius:15px;
+    width:100%;
+    
+}
+
+#fire{max-width:500px;max-height:600px;}
+
+
+/*iphone X */
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) 
+
+
+{
+        
+    h2{color:"red"};
+        
+
+}
+
+/*iPhoneX open */
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) 
+{
+	.col{
+		float:none;
+		padding:10px;
+	}
+	.c50, .c25{
+		width:100%;
+
+	border-radius:15px;
+        
+	}
+	h2{
+		color:#110B11;
+	}
+	
+	nav{
+		display: none;
+		position:static;
+		background:#A5D0A8;
+	}
+	nav li{
+		display:block;
+	}
+	nav a{
+		width:100%;
+		display:block;
+		border:none;
+		border-top:1px solid #000;
+		color:#000;
+	}
+	
+	#mobilenav{
+		display:block;
+		position:absolute;
+		top:17px;
+		right:10px;
+	}
+	
+	#mobilenav a{
+		text-decoration: none;
+		color:#110B11;
+		padding:10px;
+		border:1px solid #110B11;
+		border-radius:5px;
+        
+    
+	}
+	body{
+        background-color: #a63200;
+    }
+}
+/*iPhoneX close */
+
+
+/*iPad open */
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {.col{
+		float:none;
+		padding:10px;
+	}img {
+        max-width:  width: 100%;
+  width: 100%;
+  height: auto;
+}
+	.c50, .c25{
+		width:100%;
+
+	border-radius:15px;
+        
+	}
+	h2{
+		color:#110B11;
+	}
+	
+	nav{
+		display: none;
+		position:static;
+		background:#A5D0A8;
+	}
+	nav li{
+		display:block;
+	}
+	nav a{
+		width:100%;
+		display:block;
+		border:none;
+		border-top:1px solid #000;
+		color:#000;
+	}
+	
+	#mobilenav{
+		display:block;
+		position:absolute;
+		top:17px;
+		right:10px;
+	}
+	
+	#mobilenav a{
+		text-decoration: none;
+		color:#110B11;
+		padding:10px;
+		border:1px solid #110B11;
+		border-radius:5px;
+        
+	}
+    
+    h2,h3,h4{
+        background-color: #110B11;
+        color: white;
+    
+    
+    }
+    
+    body{
+        background-color: #a63200;
+    }
+	
+}
+
+
+/*iPad close */
+
+.grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 10px;
+        background-color: #000;
+        padding: 50px;
+    }
+
+    .grid-container>div {
+        background-color: #a63200;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+
+}
+
+.awards{background: #a63200;
+	border-radius:15px;
+font-family: 'Merriweather', serif;}
+
+.hername {
+    color:#a63200 ;
+    text-align: center;
+    font-size: 28px;
+    background:linear-gradient( #a63200,#000, #a63200);
+    font-family: 'Merriweather', serif
+}
+
+
+.hero{
+	background: #a63200;
+	border-radius:15px;
+    font-family: 'Merriweather', serif;
+}
+
+.container, header{
+	max-width:900px;
+	margin:0 auto;
+    background: #a63200;
+    font-family: 'Merriweather', serif;
+}
+
+.row:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+
+.col{
+	float:left;
+	padding:30px;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
